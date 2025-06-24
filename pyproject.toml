@@ -1,0 +1,14 @@
+[project]
+name = "doctorchat"
+version = "0.1.0"
+description = "Guess what disease the patient had?"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit",
+    "streamlit-chat",
+    "openai"
+]
+
+[tool.uv]
+index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
